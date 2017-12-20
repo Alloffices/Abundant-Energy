@@ -1,0 +1,89 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+Title : Abundant Energy, Inc.
+Author : Eric Wolf | http://www.activecanvas.com
+URL : http://www.abundantenergy.com
+
+Description : HTML5 CSS3 style sheet for Abundant Energy's blog section
+
+Created : 5/26/2007
+Version : 2015.12.28
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* ----- STRUCTURE ----- */
+
+div#page{
+	clear:right;
+	text-align:left;
+}
+
+
+/* ----- WORDPRESS BLOG - TOOLBOX THEME ----- */
+
+#primary { width:100%;margin:0;}
+#content { margin-right:5%; }
+
+div#secondary{
+	position:relative;
+	clear:none;
+	float:right;
+	width:100%;
+	margin-top:1em;
+}
+div#secondary form{ font-size:1em; }
+div#secondary aside {
+	display:block;
+	width:100%;
+	color:#6d6e71;
+	text-align:left;
+}
+div#secondary aside#search-2 { 
+	margin:50px 0 0 15px;
+	padding-top:1em;
+}
+div#secondary ul {
+	list-style-type:none;
+	margin-left:1em;
+	font-size:1em;
+}
+div#secondary ul li {
+	list-style-type:none;
+	font-weight:normal;
+	font-size:1em;
+}
+
+
+article { margin-bottom:30px; }
+
+.entry-meta { padding-left:12px; }
+footer.entry-meta { border-top:1px dashed #900; }
+div.entry-content { margin-bottom:1.5em; }
+
+div.widget-area ul li { list-style-type:none; }
+
+header.entry-header { margin:0 0 1.25em; }
+header.entry-header h1.entry-title { margin-top:.5em; margin-bottom:.2em; }
+h1.page-title {
+	background:#fff;
+	color:#344654;
+	font-size:1.2em;
+}
+h1.entry-title	{ padding-top:1.5em; }
+h1.widget-title	{ font-size:1.5em; }
+
+div.entry-content p img { padding:.5em 1em; }
+
+
+
+/* -- MAIL CHIMP SIGN-UP FORM -- */
+
+#mc_embed_signup {
+	margin-top:3em;
+	padding:.5em 0;
+	color:#fff;
+}
+#mc_embed_signup .mc-field-group input {display:block; font-size:1.2em;}
+#mc_embed_signup .mc-field-group input#mce-EMAIL {width:80%;}
+
+#mc_embed_signup h3 { color:#fff;}
